@@ -7,22 +7,22 @@ in **email signatures, embeds, and anywhere a hosted image URL is needed**.
 > public (they ship on enginuityus.com and go out on every email). It holds **no
 > code, no client data, and no licensed fonts** — the Gilroy font is *never*
 > committed here (redistribution). Brand source-of-truth + working files stay on
-> the NAS (`/Volumes/Clients/Enginuity/01_BrandAssets/`) and in the private
+> the NAS (brand-assets NAS `01_BrandAssets/`) and in the private
 > `enginuity-templates` repo.
 
 ## Use (jsDelivr CDN)
 
 ```
-https://cdn.jsdelivr.net/gh/illia-sapryga/enginuity-assets@main/<path>
+https://cdn.jsdelivr.net/gh/Enginuity-Software-Consulting/enginuity-assets@main/<path>
 ```
 
 Examples:
-- Email signature logo: `…@main/signatures/logo.png`
+- Email signature logo: `…@main/signatures/logo-halo.png`
 - Horizontal logo (SVG): `…@main/logos/logo_rectangular_no_padding.svg`
 - Square mark: `…@main/logos/logo_square_transparent_background.png`
 
 > Updated a file but the CDN still serves the old one? jsDelivr caches `@main`.
-> Purge a path at `https://purge.jsdelivr.net/gh/illia-sapryga/enginuity-assets@main/<path>`.
+> Purge a path at `https://purge.jsdelivr.net/gh/Enginuity-Software-Consulting/enginuity-assets@main/<path>`.
 
 ## Layout
 
